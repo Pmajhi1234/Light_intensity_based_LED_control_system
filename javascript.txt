@@ -1,0 +1,5 @@
+setChartLibrary('google-chart')
+setChartTitle('Light Intensity Based LED control system');
+setChartType("lineGraph");
+setAxisName('Time','Light Intensity');
+plotChart('time_stamp','analog');
